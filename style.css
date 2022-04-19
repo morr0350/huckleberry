@@ -16,18 +16,17 @@ header {
   border-bottom: 5px solid rgb(110, 110, 110);
 }
 
-.card, .intro-chunk {
-  padding-left: 10%
-}
-
 .max-width-wrapper {
   width: 100%;
   height: 300px;
 }
 
 .intro-chunk  {
+  margin-left: 10%;
   width: 330px;
-  padding: 25px 0;
+  height: min-content;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .intro-chunk > .title {
@@ -38,24 +37,29 @@ header {
 }
 
 .intro-chunk > p > strong {
-  color: green;
+  color: hsl(160deg, 100%, 30%);
 }
 
 section.max-width-wrapper {
-  background-color: gray;
+  height: min-content;
+  background-color: hsl(0deg, 0%, 60%);
   padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 .card {
   margin-left: auto;
   margin-right: auto;
-  height: 50%;
+  height: min-content;
   width: 80%;
-  padding: 50px 0;
   background-color: white;
-  border-bottom: 5px solid rgb(110, 110, 110);
+  border-bottom: 5px solid hsl(0deg, 0%, 40%);
 }
 
 .card > .indented-heading {
   margin-top: 0;
+  margin-left: -20px;
+  padding: 20px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: solid 5px hsl(45deg, 100%, 40%);
 }
